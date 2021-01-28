@@ -1,0 +1,270 @@
+
+.profile{
+    display:flex;
+    border:1px solid black;
+    top:0;
+    padding:20px;
+    font-size: 20px;
+   
+}
+.card{
+    display: flex;
+}
+.card__one {
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding:10px;
+    width:30%;
+    height:500px;
+    margin-top:30px;
+}
+.card__one img{
+    width:100%;
+    height:400px;
+}
+.card__name{
+    font-size:30px;
+    
+    margin-top:10px;
+    
+}
+.card__gmail{
+    font-size:15px;
+    color:gray;
+    margin-top:20px;
+    
+}
+.card__two{
+    display:flex;
+    flex-direction: column;
+    
+    padding:10px;
+    width:70%;
+    height:500px;
+    margin-top:30px;
+    margin-left:10px;
+}
+.cardtwo__heading{
+    display: flex;
+    font-size: 40px;
+    background-color: whitesmoke; 
+    padding:10 0 10 0;
+    padding-left:10px;
+}
+.cardtwo__discription{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    margin-top:20px;
+    border-radius: 5px;
+    
+}
+.cardtwo__item{
+    border-radius: 5px;
+    background-color:whitesmoke;
+    padding:10px;
+    margin:5 0 10 5;
+
+}
+
+
+
+
+/*small devices*/
+
+@media only screen and (min-width:360px) and (max-width:640px){
+    .profile{
+        display:flex;
+        border:1px solid black;
+        
+        padding:20px;
+        font-size: 20px;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__one {
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:94%;
+        height:400px;
+        margin-top:30px;
+        
+    }
+    .card__one img{
+        width:auto;
+        height:200px;
+    }
+    .card__name{
+        font-size:20px;
+    }
+    .card__gmail{
+        font-size:20px;
+        color:gray;
+        margin-top:20px;
+        
+    }
+    .card__two{
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:90%;
+        height:500px;
+        margin-top:30px;
+        
+    }
+    .cardtwo__heading{
+        display: flex;
+        font-size: 40px;
+        
+    }
+    .cardtwo__discription{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-top:20px;
+        
+    }
+    
+}
+
+
+
+
+/*medium scale devices*/
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .profile{
+        display:flex;
+        border:1px solid black;
+        
+        padding:20px;
+        font-size: 20px;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__one {
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:94%;
+        height:400px;
+        margin-top:30px;
+        
+    }
+    .card__one img{
+        width:70%;
+        height:400px;
+    }
+    .card__name{
+        font-size:20px;
+        
+       
+        
+    }
+    .card__gmail{
+        font-size:20px;
+        color:gray;
+        margin-top:20px;
+        
+    }
+    .card__two{
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:93%;
+        height:500px;
+        margin-top:30px;
+        
+    }
+    .cardtwo__heading{
+        display: flex;
+        font-size: 40px;
+        
+    }
+    .cardtwo__discription{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-top:20px;
+        
+    }
+    
+}
+
+/*small scale devices*/
+@media only screen and (min-width:641px) and (max-width:1286px){
+    .profile{
+        display:flex;
+        border:1px solid black;
+        
+        padding:20px;
+        font-size: 20px;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__one {
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:94%;
+        height:400px;
+        margin-top:30px;
+        
+    }
+    .card__one img{
+        width:auto;
+        height:200px;
+    }
+    .card__name{
+        font-size:20px;
+        
+       
+        
+    }
+    .card__gmail{
+        font-size:20px;
+        color:gray;
+        margin-top:20px;
+        
+    }
+    .card__two{
+        display:flex;
+        flex-direction: column;
+        border:1px solid black;
+        padding:10px;
+        width:93%;
+        height:500px;
+        margin-top:30px;
+        
+    }
+    .cardtwo__heading{
+        display: flex;
+        font-size: 40px;
+        
+    }
+    .cardtwo__discription{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin-top:20px;
+        
+    }
+    
+}
